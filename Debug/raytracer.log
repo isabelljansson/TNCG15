@@ -1,0 +1,92 @@
+﻿Build started 2016-04-12 10:03:44.
+     1>Project "H:\TNCG15\raytracer v.6\raytracer\raytracer.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"H:\TNCG15\raytracer v.6\raytracer" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Box.cpp Camera.cpp CornellBox.cpp Image.cpp Light.cpp main.cpp Ray.cpp Scene.cpp SceneObject.cpp Sphere.cpp Triangle.cpp
+         Triangle.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\lib\glm\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         Sphere.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\lib\glm\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         SceneObject.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\lib\glm\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         Scene.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\lib\glm\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         Ray.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\lib\glm\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         main.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\lib\glm\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(43): warning C4305: '=' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(44): warning C4305: '=' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(45): warning C4305: '=' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(49): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(54): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(55): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(58): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(59): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(62): warning C4305: '=' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(63): warning C4305: '=' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(64): warning C4305: '=' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(68): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(69): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(73): warning C4305: '=' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(75): warning C4305: '=' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(79): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\main.cpp(90): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         Light.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\lib\glm\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>h:\tncg15\raytracer v.6\raytracer\light.cpp(58): warning C4305: 'initializing' : truncation from '__int64' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\light.cpp(59): warning C4305: 'initializing' : truncation from '__int64' to 'float'
+         Image.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\image.cpp(31): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>h:\tncg15\raytracer v.6\raytracer\image.cpp(32): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>h:\tncg15\raytracer v.6\raytracer\image.cpp(33): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>h:\tncg15\raytracer v.6\raytracer\image.cpp(44): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>h:\tncg15\raytracer v.6\raytracer\image.cpp(71): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         CornellBox.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\lib\glm\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>h:\tncg15\raytracer v.6\raytracer\cornellbox.cpp(57): warning C4305: 'initializing' : truncation from '__int64' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\cornellbox.cpp(58): warning C4305: 'initializing' : truncation from '__int64' to 'float'
+         Camera.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\lib\glm\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>h:\tncg15\raytracer v.6\raytracer\camera.cpp(29): warning C4305: 'initializing' : truncation from '__int64' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\camera.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\tncg15\raytracer v.6\raytracer\camera.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\tncg15\raytracer v.6\raytracer\camera.cpp(74): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>h:\tncg15\raytracer v.6\raytracer\camera.cpp(115): warning C4305: 'initializing' : truncation from '__int64' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\camera.cpp(122): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\tncg15\raytracer v.6\raytracer\camera.cpp(131): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\tncg15\raytracer v.6\raytracer\camera.cpp(135): warning C4305: '=' : truncation from '__int64' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\camera.cpp(145): warning C4018: '<' : signed/unsigned mismatch
+         Box.cpp
+     1>h:\tncg15\raytracer v.6\raytracer\lib\glm\glm\gtx\string_cast.inl(30): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>h:\tncg15\raytracer v.6\raytracer\box.cpp(65): warning C4305: 'initializing' : truncation from '__int64' to 'float'
+     1>h:\tncg15\raytracer v.6\raytracer\box.cpp(66): warning C4305: 'initializing' : truncation from '__int64' to 'float'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\TNCG15\raytracer v.6\Debug\raytracer.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\TNCG15\raytracer v.6\Debug\raytracer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\TNCG15\raytracer v.6\Debug\raytracer.lib" /MACHINE:X86 Debug\Box.obj
+         Debug\Camera.obj
+         Debug\CornellBox.obj
+         Debug\Image.obj
+         Debug\Light.obj
+         Debug\main.obj
+         Debug\Ray.obj
+         Debug\Scene.obj
+         Debug\SceneObject.obj
+         Debug\Sphere.obj
+         Debug\Triangle.obj
+         raytracer.vcxproj -> H:\TNCG15\raytracer v.6\Debug\raytracer.exe
+     1>Done Building Project "H:\TNCG15\raytracer v.6\raytracer\raytracer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:24.37
